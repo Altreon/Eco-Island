@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7407502bd923a14bbec1ec7ef583564, type: 3}
+  m_Name: SpawnConfigDefault
+  m_EditorClassIdentifier: 
+  Species:
+  - randomizeOneTraitOnly: 1
+    randomizedTraitOnly: 6
+    randomizer: 0.25
+    specieTraits:
+      _aggressivity:
+        _value: 0.16
+      _gluttony:
+        _value: 0.702
+      _lust:
+        _value: 0.505
+      _hysteresis:
+        _value: 0.516
+      _sociability:
+        _value: 0.274
+      _curiosity:
+        _value: 0.964
+      _strength:
+        _value: 0.857
+      _vision:
+        _value: 0.583
+      _speed:
+        _value: 0.86
+      _vigilance:
+        _value: 0.267
+      _constitution:
+        _value: 0.759
+      _carnivorous:
+        _value: 0.25
+  - randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 1
+    specieTraits:
+      _aggressivity:
+        _value: 0
+      _gluttony:
+        _value: 0
+      _lust:
+        _value: 0.422
+      _hysteresis:
+        _value: 0
+      _sociability:
+        _value: 0
+      _curiosity:
+        _value: 0
+      _strength:
+        _value: 0
+      _vision:
+        _value: 1
+      _speed:
+        _value: 0
+      _vigilance:
+        _value: 0
+      _constitution:
+        _value: 0
+      _carnivorous:
+        _value: 0
+  - randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0.4
+    specieTraits:
+      _aggressivity:
+        _value: 0.5
+      _gluttony:
+        _value: 0.5
+      _lust:
+        _value: 0.5
+      _hysteresis:
+        _value: 0.5
+      _sociability:
+        _value: 0.5
+      _curiosity:
+        _value: 0.5
+      _strength:
+        _value: 0.5
+      _vision:
+        _value: 0.5
+      _speed:
+        _value: 0.5
+      _vigilance:
+        _value: 0.5
+      _constitution:
+        _value: 0.5
+      _carnivorous:
+        _value: 0.5
+  - randomizeOneTraitOnly: 1
+    randomizedTraitOnly: 6
+    randomizer: 0.25
+    specieTraits:
+      _aggressivity:
+        _value: 0.92
+      _gluttony:
+        _value: 0.193
+      _lust:
+        _value: 0.632
+      _hysteresis:
+        _value: 0.468
+      _sociability:
+        _value: 0.742
+      _curiosity:
+        _value: 0.27
+      _strength:
+        _value: 0.916
+      _vision:
+        _value: 0.263
+      _speed:
+        _value: 0.324
+      _vigilance:
+        _value: 0.136
+      _constitution:
+        _value: 0.401
+      _carnivorous:
+        _value: 0.75

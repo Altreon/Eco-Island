@@ -1,0 +1,986 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.6444799, g: 0.822786, b: 1, a: 1}
+  m_AmbientEquatorColor: {r: 0.5028866, g: 0.5028866, b: 0.5028866, a: 1}
+  m_AmbientGroundColor: {r: 0.5028866, g: 0.5028866, b: 0.5028866, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 1
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 221f9488657b1f1498bb5860cf4c5ff3, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 496243516}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &356915661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8541723728465873482, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_Name
+      value: Managers
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15934181
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.005656272
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541723728465873483, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1e3129457f4e3ef4fb9ed1b203c55c9d, type: 3}
+--- !u!108 &496243516 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 5842962615133080830, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5842962615477804994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &517934363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7550203958014935152, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015336050, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Cam
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015336050, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 89.70943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 39.998283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.6015263
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.26289976
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6417919
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2510039
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67526585
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -10.886076
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958015754834, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958027832886, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958341800632, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550203958341800633, guid: 378d5a9646fb95542bbe63061ec7eeae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 378d5a9646fb95542bbe63061ec7eeae, type: 3}
+--- !u!1 &696910537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7550203958015336050, guid: 378d5a9646fb95542bbe63061ec7eeae,
+    type: 3}
+  m_PrefabInstance: {fileID: 517934363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1375413624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1976517316, guid: 30242e40271f0c04fa63de3b2bb62d3d, type: 3}
+      propertyPath: cameraBeforePlayer
+      value: 
+      objectReference: {fileID: 696910537}
+    - target: {fileID: 1976517316, guid: 30242e40271f0c04fa63de3b2bb62d3d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921729787474356559, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_Text
+      value: "Commanditaire : K\xE9vin Goilard\nEncadrant : Bruno Defude"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868963, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868964, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_Name
+      value: JalikFaitMumuseAvecUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962239529249868964, guid: 30242e40271f0c04fa63de3b2bb62d3d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30242e40271f0c04fa63de3b2bb62d3d, type: 3}
+--- !u!1001 &5842962615477804994
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330976, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616160330979, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: m_Name
+      value: Island
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616260428409, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeNoiseScale
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616260428409, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeThreshold
+      value: 0.561
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: generationSeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[0].entityNoiseScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[4].biomeNoiseScale
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].biomeThreshold
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].biomeNoiseScale
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].biomeNoiseScale
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[0].biomeThreshold
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[1].biomeThreshold
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[2].biomeThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[2].biomeNoiseScale
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[4].biomeThreshold
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].biomeThreshold
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].weightFactor
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].weightFactor
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: CreatureModels.Array.data[2]
+      value: 
+      objectReference: {fileID: 1661926682117706183, guid: 3036eeb2cdd02d140ad76b8065529605,
+        type: 3}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: CreatureModels.Array.data[5]
+      value: 
+      objectReference: {fileID: 1661926682117706183, guid: a30fcc578b0bb0841a9820d5a372a4c7,
+        type: 3}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[3].weightFactor
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entityThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[4].entityThreshold
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[0].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[1].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[2].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[3].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[4].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[5].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[7].probability
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].probability
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[6].probability
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[3].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[3].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[3].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[3].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[3].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[4].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[4].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[4].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[4].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[4].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[5].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[5].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[5].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[5].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[5].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[6].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[6].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[6].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[6].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[6].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[7].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[7].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[7].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[7].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[7].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].entitySettings.Array.data[8].scaleCurve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[0].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[1].value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[1].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[0].inSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[0].outSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].scaleCurve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entityThreshold
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[0].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[1].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[6].entitySettings.Array.data[2].probability
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[3].entitySettings.Array.data[0].probability
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[3].entitySettings.Array.data[1].probability
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[3].entityThreshold
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842962616551862735, guid: a670cf9aadaf3d74abb1b6f3946e35fb,
+        type: 3}
+      propertyPath: biomeSettings.Array.data[5].useProbability
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a670cf9aadaf3d74abb1b6f3946e35fb, type: 3}

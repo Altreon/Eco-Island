@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641baaaea954a644f84e34ab690f1dcb, type: 3}
+  m_Name: GaugesConfig 1
+  m_EditorClassIdentifier: 
+  modifiers:
+  - influence: 1
+    influenced: 0
+    valueChanges: 1
+    minValue: 200
+    maxValue: 400
+  - influence: 1
+    influenced: 0
+    valueChanges: 0
+    minValue: -0.5
+    maxValue: -0.8
+  - influence: 1
+    influenced: 0
+    valueChanges: 2
+    minValue: 0.8
+    maxValue: 1
+  - influence: 2
+    influenced: 1
+    valueChanges: 1
+    minValue: 350
+    maxValue: 250
+  - influence: 2
+    influenced: 1
+    valueChanges: 0
+    minValue: -1
+    maxValue: -5
+  - influence: 2
+    influenced: 1
+    valueChanges: 2
+    minValue: 0.8
+    maxValue: 1
+  - influence: 8
+    influenced: 2
+    valueChanges: 1
+    minValue: 100
+    maxValue: 300
+  - influence: 8
+    influenced: 2
+    valueChanges: 0
+    minValue: 0.5
+    maxValue: 1
+  - influence: 8
+    influenced: 2
+    valueChanges: 2
+    minValue: 1
+    maxValue: 1
+  testTraits:
+    _aggressivity:
+      _value: 0.868
+    _gluttony:
+      _value: 1
+    _lust:
+      _value: 1
+    _hysteresis:
+      _value: 1
+    _sociability:
+      _value: 1
+    _curiosity:
+      _value: 1
+    _strength:
+      _value: 0.926
+    _vision:
+      _value: 1
+    _speed:
+      _value: 1
+    _vigilance:
+      _value: 1
+    _constitution:
+      _value: 0.672
+    _carnivorous:
+      _value: 0.448
+    _nocturnal:
+      _value: 0
+  colorCreature: {r: 0.1390375, g: 0.7945, b: 0.394231, a: 1}
+  testGauges:
+    _hunger:
+      _maxSize: 400
+      _currentValue: 400
+      _modifierPerSecond: -0.8
+    _reproduction:
+      _maxSize: 250
+      _currentValue: 250
+      _modifierPerSecond: -3
+    _life:
+      _maxSize: 234
+      _currentValue: 234
+      _modifierPerSecond: 0.83599997

@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7407502bd923a14bbec1ec7ef583564, type: 3}
+  m_Name: SpawnConfig 2
+  m_EditorClassIdentifier: 
+  Species:
+  - NbCreaturesInit: 15
+    randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0
+    specieTraits:
+      _aggressivity:
+        _value: 0.2
+      _gluttony:
+        _value: 0.5
+      _lust:
+        _value: 0.75
+      _hysteresis:
+        _value: 0.75
+      _sociability:
+        _value: 0.75
+      _curiosity:
+        _value: 0.3
+      _strength:
+        _value: 0.25
+      _vision:
+        _value: 0.5
+      _speed:
+        _value: 0.4
+      _vigilance:
+        _value: 0.9
+      _constitution:
+        _value: 0.3
+      _carnivorous:
+        _value: 0
+      _nocturnal:
+        _value: 0.5
+    CarnivorousFoods: 
+    HerbivorFoods: 0000000001000000
+    particularities: 00000000
+    defaultColor: {r: 0.7490196, g: 0.7490056, b: 0.11372549, a: 1}
+  - NbCreaturesInit: 10
+    randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0
+    specieTraits:
+      _aggressivity:
+        _value: 0.75
+      _gluttony:
+        _value: 0.75
+      _lust:
+        _value: 1
+      _hysteresis:
+        _value: 0.5
+      _sociability:
+        _value: 0.6
+      _curiosity:
+        _value: 0.25
+      _strength:
+        _value: 0.6
+      _vision:
+        _value: 0.5
+      _speed:
+        _value: 0.35
+      _vigilance:
+        _value: 0.5
+      _constitution:
+        _value: 0.7
+      _carnivorous:
+        _value: 0.375
+      _nocturnal:
+        _value: 0
+    CarnivorousFoods: 
+    HerbivorFoods: 0000000001000000
+    particularities: 03000000
+    defaultColor: {r: 0.11372549, g: 0.42761636, b: 0.7490196, a: 1}
+  - NbCreaturesInit: 12
+    randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0
+    specieTraits:
+      _aggressivity:
+        _value: 0.1
+      _gluttony:
+        _value: 0.2
+      _lust:
+        _value: 0.1
+      _hysteresis:
+        _value: 0.5
+      _sociability:
+        _value: 0.25
+      _curiosity:
+        _value: 0.8
+      _strength:
+        _value: 0.4
+      _vision:
+        _value: 0.3
+      _speed:
+        _value: 0.45
+      _vigilance:
+        _value: 0.9
+      _constitution:
+        _value: 0.6
+      _carnivorous:
+        _value: 0.125
+      _nocturnal:
+        _value: 0
+    CarnivorousFoods: 
+    HerbivorFoods: 0000000001000000
+    particularities: 02000000
+    defaultColor: {r: 0.5629999, g: 1, b: 0.90531665, a: 1}
+  - NbCreaturesInit: 20
+    randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0
+    specieTraits:
+      _aggressivity:
+        _value: 0.4
+      _gluttony:
+        _value: 0.4
+      _lust:
+        _value: 0.3
+      _hysteresis:
+        _value: 0.5
+      _sociability:
+        _value: 0.45
+      _curiosity:
+        _value: 0.6
+      _strength:
+        _value: 0.5
+      _vision:
+        _value: 0.6
+      _speed:
+        _value: 0.2
+      _vigilance:
+        _value: 0.1
+      _constitution:
+        _value: 0.5
+      _carnivorous:
+        _value: 0.25
+      _nocturnal:
+        _value: 0.5
+    CarnivorousFoods: 
+    HerbivorFoods: 0000000001000000
+    particularities: 04000000
+    defaultColor: {r: 0.18039216, g: 0.8, b: 0.2509804, a: 1}
+  - NbCreaturesInit: 10
+    randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0
+    specieTraits:
+      _aggressivity:
+        _value: 0.7
+      _gluttony:
+        _value: 0.4
+      _lust:
+        _value: 1
+      _hysteresis:
+        _value: 0.5
+      _sociability:
+        _value: 0.75
+      _curiosity:
+        _value: 0.7
+      _strength:
+        _value: 0.75
+      _vision:
+        _value: 0.6
+      _speed:
+        _value: 0.85
+      _vigilance:
+        _value: 0.8
+      _constitution:
+        _value: 0.7
+      _carnivorous:
+        _value: 0.849
+      _nocturnal:
+        _value: 0
+    CarnivorousFoods: 0100000002000000
+    HerbivorFoods: 
+    particularities: 01000000
+    defaultColor: {r: 0.72659326, g: 0.11249998, b: 0.75, a: 1}
+  - NbCreaturesInit: 8
+    randomizeOneTraitOnly: 0
+    randomizedTraitOnly: 0
+    randomizer: 0
+    specieTraits:
+      _aggressivity:
+        _value: 1
+      _gluttony:
+        _value: 0.6
+      _lust:
+        _value: 0.02
+      _hysteresis:
+        _value: 0.5
+      _sociability:
+        _value: 0.15
+      _curiosity:
+        _value: 0.2
+      _strength:
+        _value: 0.6
+      _vision:
+        _value: 1
+      _speed:
+        _value: 0.6
+      _vigilance:
+        _value: 0.2
+      _constitution:
+        _value: 0.6
+      _carnivorous:
+        _value: 1
+      _nocturnal:
+        _value: 0.5
+    CarnivorousFoods: 0000000003000000
+    HerbivorFoods: 
+    particularities: 05000000
+    defaultColor: {r: 0.7490196, g: 0.118338384, b: 0.11372549, a: 1}

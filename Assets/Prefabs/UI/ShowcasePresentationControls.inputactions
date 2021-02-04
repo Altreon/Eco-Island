@@ -1,0 +1,33 @@
+{
+    "name": "ShowcasePresentationControls",
+    "maps": [
+        {
+            "name": "ShowcaseActions",
+            "id": "f03ca8e7-72c9-4410-ba28-2b76fc8e8a55",
+            "actions": [
+                {
+                    "name": "NextLine",
+                    "type": "Button",
+                    "id": "399dc5a0-eac8-4fba-bc3d-979e2de88911",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bdf6a7b7-de81-4936-8378-f9a280c33f49",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextLine",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

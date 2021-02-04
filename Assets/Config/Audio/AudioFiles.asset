@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051e272c82ef619428541fb68d79eb29, type: 3}
+  m_Name: AudioFiles
+  m_EditorClassIdentifier: 
+  dayMusic:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 0}
+  ambianceDay:
+    volume: 0.04
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 464ecbe07e40d2442b22947b94d15753, type: 3}
+  ambianceNight:
+    volume: 0.3
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 28922f92ac1f9744f80837157e0daabe, type: 3}
+  ambianceRain:
+    volume: 0.1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: f9cc77d1a415a6e4e90004285d6078e4, type: 3}
+  ambianceSnow:
+    volume: 0.35
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 24fba2c1b723b164b9f5e9ce60607074, type: 3}
+  creatureAttack:
+    volume: 0.5
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: eae8a39b42dc2f64d8075f7f37400237, type: 3}
+    - {fileID: 8300000, guid: f0857c0125acf39409351c7275013def, type: 3}
+    - {fileID: 8300000, guid: 6b05c4299e6ba9446bcee01568c930b7, type: 3}
+    - {fileID: 8300000, guid: 5288f9f8fc585204298d508f12af5619, type: 3}
+    - {fileID: 8300000, guid: 8874acf173d00184fbd9c08b82747052, type: 3}
+    - {fileID: 8300000, guid: 455be4feba837b74ebb750bfe1cc38eb, type: 3}
+    - {fileID: 8300000, guid: d5a56b1b81e96b14ca4d53dee9a67dff, type: 3}
+    - {fileID: 8300000, guid: fc1fc1a4a5b99034badddfc463f44699, type: 3}
+  creatureSpawn:
+    volume: 0.5
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 6f752015d2dbbcb42ae582076538ce65, type: 3}
+  creatureEatCreature:
+    volume: 0.8
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: fbb033c757355bd42b0640430540831c, type: 3}
+    - {fileID: 8300000, guid: 4b94e0721bb41ec46be9b7fcbc3114b7, type: 3}
+    - {fileID: 8300000, guid: 77491f3c9664f434b9f931b091bd6bcb, type: 3}
+    - {fileID: 8300000, guid: dd0f76bd9b68e0f40a038a0071cf2517, type: 3}
+    - {fileID: 8300000, guid: 47387e9554ed1014097f22976891f4ea, type: 3}
+    - {fileID: 8300000, guid: 33f2af240c3fb2a45b0e6f9de4de8328, type: 3}
+    - {fileID: 8300000, guid: c1b2091bfebd99f4ab7460321cc485f9, type: 3}
+    - {fileID: 8300000, guid: 34c4011623a6b6245a784f140a604267, type: 3}
+  creatureEatFood:
+    volume: 0.8
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 87474dac41eb63e46bc89a2ad40710f7, type: 3}
+    - {fileID: 8300000, guid: 8da060d9df3499e4d81714846a42ebc7, type: 3}
+    - {fileID: 8300000, guid: 0dec5cfdcd4169041a449c24fe9ecd0d, type: 3}
+    - {fileID: 8300000, guid: a119ac4d1b44f8f43b54b8249190eddc, type: 3}
+    - {fileID: 8300000, guid: 2185fb28068398c4284843e099e0281d, type: 3}
+    - {fileID: 8300000, guid: 6da4adf7e212e1242b16efa5768cffe0, type: 3}
+  creatureAlert:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 9e94006d72291d74899b819c4db75b39, type: 3}
+    - {fileID: 8300000, guid: fec12d92ba4217748890ae7edd9e9985, type: 3}
+    - {fileID: 8300000, guid: 64c7cd0c603f7134d943178d7b801552, type: 3}
+    - {fileID: 8300000, guid: 575341bd2c9a98743b90440fd1a7271a, type: 3}
+    - {fileID: 8300000, guid: fc702a6ad8b40bb44a3cfdcdb81e1102, type: 3}
+    - {fileID: 8300000, guid: 791d364c650dc10488ff997838224050, type: 3}
+    - {fileID: 8300000, guid: c3c80142c9f9a104384ee4601b0dd576, type: 3}
+    - {fileID: 8300000, guid: c705302b02e989144a5162b663b0731a, type: 3}
+    - {fileID: 8300000, guid: 93a5099e20cd4f249b0dc51acbdb494d, type: 3}
+    - {fileID: 8300000, guid: c48de6a64081c7a459ed026430cc9f3f, type: 3}
+    - {fileID: 8300000, guid: 8ecb510fa7cb0f94896a46cf4ecf077d, type: 3}
+    - {fileID: 8300000, guid: 00dcc2006768052479f86b453e6ee810, type: 3}
+    - {fileID: 8300000, guid: 7f17e42f06230fc4b8616520c0c6ba5b, type: 3}
+  creatureFear:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 9e94006d72291d74899b819c4db75b39, type: 3}
+    - {fileID: 8300000, guid: fec12d92ba4217748890ae7edd9e9985, type: 3}
+    - {fileID: 8300000, guid: 64c7cd0c603f7134d943178d7b801552, type: 3}
+    - {fileID: 8300000, guid: 575341bd2c9a98743b90440fd1a7271a, type: 3}
+    - {fileID: 8300000, guid: fc702a6ad8b40bb44a3cfdcdb81e1102, type: 3}
+    - {fileID: 8300000, guid: 791d364c650dc10488ff997838224050, type: 3}
+    - {fileID: 8300000, guid: c3c80142c9f9a104384ee4601b0dd576, type: 3}
+    - {fileID: 8300000, guid: c705302b02e989144a5162b663b0731a, type: 3}
+    - {fileID: 8300000, guid: 93a5099e20cd4f249b0dc51acbdb494d, type: 3}
+    - {fileID: 8300000, guid: c48de6a64081c7a459ed026430cc9f3f, type: 3}
+    - {fileID: 8300000, guid: 8ecb510fa7cb0f94896a46cf4ecf077d, type: 3}
+    - {fileID: 8300000, guid: 00dcc2006768052479f86b453e6ee810, type: 3}
+    - {fileID: 8300000, guid: 7f17e42f06230fc4b8616520c0c6ba5b, type: 3}
+  creatureSpotPrey:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 644fd5385c053dd4fb7634993dcdc864, type: 3}
+    - {fileID: 8300000, guid: 253d297ce95ba9b4e9baf2a61aa5d172, type: 3}
+    - {fileID: 8300000, guid: a9094e9f56487cf4b977a4179aa9fb9e, type: 3}
+    - {fileID: 8300000, guid: 8478d23ac66049744b3fca4b5f5c871f, type: 3}
+    - {fileID: 8300000, guid: c54e28d414bc31143a7e7e0aa837ca54, type: 3}
+    - {fileID: 8300000, guid: 5525b3395ff5fc64bb61365d999f9269, type: 3}
+    - {fileID: 8300000, guid: 12de88c57c7d39141b9835c11f58db2c, type: 3}
+    - {fileID: 8300000, guid: e888b93d3e985844d894f96bd33b3d24, type: 3}
+    - {fileID: 8300000, guid: 34ea19f8ddd2cf4449b5f02bcb34a220, type: 3}
+    - {fileID: 8300000, guid: cdde14371c43cde45829da19a781854f, type: 3}
+  creatureDamagedWithoutResistance:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: cbd535decda1f7b419ae55f68eb20d6c, type: 3}
+    - {fileID: 8300000, guid: 80048d9d7ceaa0344b11a870161ec951, type: 3}
+    - {fileID: 8300000, guid: 2ba7f714f05716d4e9a646588f6b4f44, type: 3}
+    - {fileID: 8300000, guid: a841b90a910aee54f9c9e697f16717f3, type: 3}
+    - {fileID: 8300000, guid: 200125771bdc8c94ea927f98f7576bec, type: 3}
+    - {fileID: 8300000, guid: 008a7b435af683341bf72d4659c03ee1, type: 3}
+    - {fileID: 8300000, guid: b3ac6a5f6e241bf4284e5a38a83c231a, type: 3}
+    - {fileID: 8300000, guid: 44dd0eda07bcdfc4c97b4ab27f516e5c, type: 3}
+    - {fileID: 8300000, guid: ab3d3f2832238454288ae7be8c9cf4a1, type: 3}
+    - {fileID: 8300000, guid: 82cf815defd9be647a0b547eede41dc4, type: 3}
+    - {fileID: 8300000, guid: 97591dbe35ae87c4c917005c3ec30168, type: 3}
+    - {fileID: 8300000, guid: bb6d9dc3055eb2b4db089a6a99ac43f5, type: 3}
+    - {fileID: 8300000, guid: 58b10b5561a70f94aa812af24b5ac2d3, type: 3}
+  creatureDamagedWithResistance:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 810aa4b031dca4c42abd8f51786f13dc, type: 3}
+    - {fileID: 8300000, guid: a357f1ca2f8d84e48bb0e00d3a70702e, type: 3}
+    - {fileID: 8300000, guid: 580c65a075e36bf48b3f3d53eb70e409, type: 3}
+    - {fileID: 8300000, guid: 52f4e8c3ff1870646a23710f10cad7b5, type: 3}
+    - {fileID: 8300000, guid: 18033c14864472b49bf525007c7d46bf, type: 3}
+    - {fileID: 8300000, guid: 31087c83cca1702478968d7166b58bd0, type: 3}
+    - {fileID: 8300000, guid: 2e93b1037954a874cad696bf515a3f64, type: 3}
+    - {fileID: 8300000, guid: ae25a8301b30b8d4b9b9b5fd37ba99b1, type: 3}
+    - {fileID: 8300000, guid: 5b5b0f0a6d865d24d9203f22047993e7, type: 3}
+    - {fileID: 8300000, guid: 9a1d19f8b2138674f9956600bb7cae31, type: 3}
+    - {fileID: 8300000, guid: e7027bd7560240843a01e15f87470b38, type: 3}
+    - {fileID: 8300000, guid: f9ee6110c39c9604a8dac0935d2ebbcb, type: 3}
+    - {fileID: 8300000, guid: d8e59ef466435cb478d7948b4e7f9626, type: 3}
+    - {fileID: 8300000, guid: 94419df06b8d43e4091bd46a8c148d19, type: 3}
+  creatureHappy:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 9f06641f09947664bbaa9a812842aeb4, type: 3}
+    - {fileID: 8300000, guid: 7dfe0f4926b6e6b43b7b9339cd7685cf, type: 3}
+    - {fileID: 8300000, guid: 76921886c397f0d4cbd76180b70122a8, type: 3}
+    - {fileID: 8300000, guid: aea90b4246c4c1b438421125330fc825, type: 3}
+    - {fileID: 8300000, guid: 007afda6c08d2ef4488c23aaf890d73d, type: 3}
+    - {fileID: 8300000, guid: 0de835c1d4a21d74795aa70b6a28d92c, type: 3}
+    - {fileID: 8300000, guid: 9c2e7a1d3dead5d42a131c1e7b4f24b5, type: 3}
+    - {fileID: 8300000, guid: 1a6f24f2c2930194cbc8f9bedef5f57c, type: 3}
+  creatureHungry:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 4abaca5e01dd074408da31b5d97787f4, type: 3}
+    - {fileID: 8300000, guid: 4a9bd896ed66f174dbd35a3a5ef25bed, type: 3}
+    - {fileID: 8300000, guid: 3de42445a9e315f448f7dad81cd88d01, type: 3}
+    - {fileID: 8300000, guid: 03344b37ce6b0da479c96266f4a6f490, type: 3}
+    - {fileID: 8300000, guid: c95223d4b0e47ec4eb8da633755ce477, type: 3}
+    - {fileID: 8300000, guid: bb31924866da86c4589d93b71b856046, type: 3}
+    - {fileID: 8300000, guid: 23e3e4f21b5305742a1fe6afd8e88e99, type: 3}
+    - {fileID: 8300000, guid: b4ac98debfe64fd4c97a1f972f6a1ff9, type: 3}
+    - {fileID: 8300000, guid: 819a5d793df32fb4284a65b1cd8c0bfd, type: 3}
+  creatureSuspicious:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 759539946a648aa47a6a858d7bd070a4, type: 3}
+    - {fileID: 8300000, guid: 54f5b33a58cb0a94bb10f6f880393399, type: 3}
+    - {fileID: 8300000, guid: d2316a4c92303004c9e7a514903ec0f2, type: 3}
+    - {fileID: 8300000, guid: 92e3796b0433f0f44a55c2cde277534a, type: 3}
+    - {fileID: 8300000, guid: 6297ad8da2492e74c8df7be0f8b874db, type: 3}
+  creatureCurious:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 04e794dc39d518a4f8e094a8afc4829a, type: 3}
+    - {fileID: 8300000, guid: 41be505dafbf16b48816a769255c5ef5, type: 3}
+    - {fileID: 8300000, guid: d77e25e0ee992184296ffaa9d8daa41b, type: 3}
+    - {fileID: 8300000, guid: 2ae5b181721fa2841b461ac8e09dd56b, type: 3}
+    - {fileID: 8300000, guid: 5dfac35aad3d0a041b1ae834b4a213b6, type: 3}
+    - {fileID: 8300000, guid: e70ec93c56dfc1a42ab1e51348de1ace, type: 3}
+    - {fileID: 8300000, guid: 943c7ab103e6c6d488603d5331f2a723, type: 3}
+    - {fileID: 8300000, guid: a2ae3b9c6968ec04d8d791e0a17aa098, type: 3}
+    - {fileID: 8300000, guid: 4e881a07f15525f4cabd81fa26eab99f, type: 3}
+  creatureLove:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 3d18e562086331649ad7a73cf9862e4e, type: 3}
+    - {fileID: 8300000, guid: fb8a0c1501949ac4fae836d15ca601be, type: 3}
+    - {fileID: 8300000, guid: d31165c94c933c24d8cbdd881c1efd13, type: 3}
+    - {fileID: 8300000, guid: ab9b746c61ace234da5d38f893afdf86, type: 3}
+    - {fileID: 8300000, guid: ff279923d60e0fa4da384eb1f0a8ca67, type: 3}
+    - {fileID: 8300000, guid: 9b913e25ecd29f342a191f21ad29e473, type: 3}
+    - {fileID: 8300000, guid: 50d818cab316f884387681bebf450ad9, type: 3}
+    - {fileID: 8300000, guid: 7f238feab482eda4b8ad9d1dd545da6e, type: 3}
+  creatureTired:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 8eb685d939eb9fc4f9b23a5ab4f385ff, type: 3}
+    - {fileID: 8300000, guid: f92e86666ce9ce94ea1d810e5a4e464a, type: 3}
+    - {fileID: 8300000, guid: 7bb22ee7f27bf4d438e232ad3aacb0d1, type: 3}
+    - {fileID: 8300000, guid: e25e8fdbdf2137544b7019191d6044af, type: 3}
+    - {fileID: 8300000, guid: 8b7578842a614fd47ba2d82a8a5cc3c2, type: 3}
+    - {fileID: 8300000, guid: 1b757872f7a855e4485d025a465b3b2a, type: 3}
+    - {fileID: 8300000, guid: d71b42f8cba80c8478d8a5764b9ada97, type: 3}
+  creatureDefense:
+    volume: 1
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 51530d0ea9a93374d81e1ebf85623206, type: 3}
+    - {fileID: 8300000, guid: 2d372584d99727b46aed2b528abd6362, type: 3}
+    - {fileID: 8300000, guid: bee468535354d7445be421e25225b765, type: 3}
+    - {fileID: 8300000, guid: b0bb080bce63b8c4590b61d441c7d7d4, type: 3}
+    - {fileID: 8300000, guid: 2ce4d53f58a61884db28fa43ec47348c, type: 3}
+    - {fileID: 8300000, guid: 019161c5167c6424f8180ac7669bbcbc, type: 3}
+    - {fileID: 8300000, guid: a76856f3a433bcc4fbc4f422a5ef6da7, type: 3}
+    - {fileID: 8300000, guid: edda36bedcb442a438c40f8a85707a8f, type: 3}
+  ecoDexOpen:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 59ccc975d29ab8c43a9f5fe7bd594fad, type: 3}
+  ecoDexClose:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5eb8c4d20b3a539469ae537a95597349, type: 3}
+  ecoDexPage:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2017f48ee705d874ea68ed89fc641312, type: 3}
+  playerWalk:
+    volume: 0.08
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 202a1fd193047354598c343c875d1516, type: 3}
+    - {fileID: 8300000, guid: 4402c80c435e8564bbcd55e4457271e2, type: 3}
+    - {fileID: 8300000, guid: 6a89ba44a83493b48a9b248201031c8b, type: 3}
+    - {fileID: 8300000, guid: 8fb23c687ea6e0d4a83e052712679dda, type: 3}
+    - {fileID: 8300000, guid: 9f38b3da1f270824a919d226dba5ea84, type: 3}
+    - {fileID: 8300000, guid: 8bdcfd1b496c4334096e8fdbbb68d138, type: 3}
+    - {fileID: 8300000, guid: 58b6f92135a464f4f9549389d511d4c4, type: 3}
+    - {fileID: 8300000, guid: 9628b22f3aa3a9d4584264fc7b722f28, type: 3}
+    - {fileID: 8300000, guid: b122cc6bd9c4d7c488061044893e4ab2, type: 3}
+    - {fileID: 8300000, guid: 6e00665428b7997488ed90dc9c281a62, type: 3}
+  playerRun:
+    volume: 0.08
+    mixer: {fileID: 0}
+    clip:
+    - {fileID: 8300000, guid: 398dd37ebce7ef64fa54c95dcc267832, type: 3}
+    - {fileID: 8300000, guid: c85cd89cb65a9bf4c9086757fc9b81c5, type: 3}
+    - {fileID: 8300000, guid: 486bf142afd53224c900b4a2296d1b25, type: 3}
+    - {fileID: 8300000, guid: 5baed75398fe6bf4fac047ab7b805e57, type: 3}
+    - {fileID: 8300000, guid: d69728a34ffe29c43a1efe16c1528b1d, type: 3}
+    - {fileID: 8300000, guid: 4a2594d5de7382447b74b18ca9d3e9d7, type: 3}
+    - {fileID: 8300000, guid: 6120624f25332ea4fbdbf72d61148e31, type: 3}
+    - {fileID: 8300000, guid: c43093df94d7d544caa367be014855f7, type: 3}
+    - {fileID: 8300000, guid: 6afc629d0dba8784291411d65766cfac, type: 3}
+    - {fileID: 8300000, guid: e83fbcbb9012ddc458474473aa7c3caa, type: 3}
+  flashlight:
+    volume: 0.5
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2b25654823df7b440ab339852c72bde3, type: 3}
+  photoModeActive:
+    volume: 0.5
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: f62701a12bd88e04c99d8fdb73426834, type: 3}
+  photoModeDeactive:
+    volume: 0.5
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: dae6a07bdc7523441877687464b27666, type: 3}
+  takePhoto:
+    volume: 0.8
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 441ad4d008fc1594d8942ea672fc22e4, type: 3}
+  changeFlash:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 6b3d497ba11b0b14b80051a4591a4b9a, type: 3}
+  flashSoundEffect:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 01ca1bf75002d8c4ead953a6a4ddedf1, type: 3}
+  changeFlashUP:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 4aac2fbf70beb4e42bef1818c72b2384, type: 3}
+  changeFlashDOWN:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2d7355bcc64855644960485180595c78, type: 3}
+  changePhotoSound:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 90658fc89264bae418ea35d8069270ff, type: 3}
+  deletePhotoSound:
+    volume: 1
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: af22f998dbcccf745a39b8edf80c2b75, type: 3}
+  discoverCreature:
+    volume: 0.35
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1996659eec65d564eb0341e461ffd598, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae31d668f2ee3a489da6d0196b212ad, type: 3}
+  m_Name: ExplosionConfig
+  m_EditorClassIdentifier: 
+  title: Explosion
+  fuse: 5
+  explosion: 6
+  radius: 9
+  damageToCreatures: 50
+  damagesToPlayer: 50
+  force: 10
+  rechargeTime: 100
+  minDistWithOpponentToExplode: 3.5

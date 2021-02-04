@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d339a6843ce0d4aac1d06591b7187b, type: 3}
+  m_Name: FacesTextures
+  m_EditorClassIdentifier: 
+  defaultFace: {fileID: 2800000, guid: 7d250a0f904d36147afe0ff6dc3dca29, type: 3}
+  happyFace: {fileID: 2800000, guid: 63e59711214cff4448ab5b3461d03cd4, type: 3}
+  hungryFace: {fileID: 2800000, guid: ad69d9c0f3f57ed44b545cf4f2518701, type: 3}
+  dyingFace: {fileID: 2800000, guid: 7d250a0f904d36147afe0ff6dc3dca29, type: 3}
+  scaredFace: {fileID: 2800000, guid: a8e7dc3a779f569428e3a723423356d3, type: 3}
+  agressiveFace: {fileID: 2800000, guid: d67a4d5133ddb7d4f895e777760bccd5, type: 3}
+  angryFace: {fileID: 2800000, guid: 6ad9030f1ebdf7e4eaa4370db349c64a, type: 3}
+  sleepFace: {fileID: 2800000, guid: 52c43b6b711ea254194f5ce15e3e46a9, type: 3}
+  suspiciousFace: {fileID: 2800000, guid: 6b6ee360ecf168348b63e30391238ad1, type: 3}
+  curiousFace: {fileID: 2800000, guid: a8f7f64cc54659d40943418629af241a, type: 3}
+  loveFace: {fileID: 2800000, guid: f8cfbc18c708b8d458d579497ad80caa, type: 3}
+  tiredFace: {fileID: 2800000, guid: d2b6a47088e2b2b4fae8e90dbd717401, type: 3}
+  stunnedFace: {fileID: 2800000, guid: b2ad7784615bde7499f66fa9ccbd2e7b, type: 3}
+  swallowFace: {fileID: 2800000, guid: 490cb1ab754dee449aa59abc52db4bdd, type: 3}
+  envyFace: {fileID: 2800000, guid: bdf26ddd51ac35f45bba64b0bbcef5d7, type: 3}
+  friendlyFace: {fileID: 2800000, guid: c65daa45d2b48d548875dd15546196e4, type: 3}
+  envyPacificFace: {fileID: 2800000, guid: 142fc62cf98c1b14f8f32f18280cfa2c, type: 3}
